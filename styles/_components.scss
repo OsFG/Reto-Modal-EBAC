@@ -1,0 +1,17 @@
+    .tarjeta {
+
+      &__btn {
+        cursor: pointer;
+      }
+
+    }
+
+.btn-primary {
+  --bs-btn-bg: #{$primary};
+  --bs-btn-border-color: none;
+  --bs-btn-hover-border-color: #{$primary-hover};
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #{$primary-active};
+  --bs-btn-active-bg: #{$primary-active};
+  --bs-btn-active-border-color: #{$primary-active};
+}
